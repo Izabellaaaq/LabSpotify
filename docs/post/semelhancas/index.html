@@ -201,7 +201,7 @@
           .attr('viewBox', '0 0 '+width+' '+height)
           .attr('width', '100%');
 
-      var color = d3.scaleThreshold().domain([0, 20, 40, 60, 80]).range(["#fef0d9", "#fdcc8a", "#fc8d59", "#e34a33", "#b30000"]);
+      var color = d3.scaleThreshold().domain([0, 20, 40, 60, 80]).range(["#feebe2", "#fbb4b9", "#f768a1", "#c51b8a", "#7a0177"]);
 
       var simulation = d3.forceSimulation()
           .force("link", d3.forceLink().id(function(d) { return d.id; }))
@@ -211,7 +211,7 @@
       d3.json("artistas.json", function(error, graph) {
         if (error) throw error;
 
-        const size_threshold = 30;
+        const size_threshold = 45;
         filter_out = graph.nodes.filter(x => x.size < size_threshold);
         for (var index in filter_out) {
           graph.edges = graph.edges.filter(x => x.source != filter_out[index].id);
@@ -234,14 +234,14 @@
           .selectAll("circle")
             .data(graph.nodes)
           .enter().append("circle")
-            .attr("r", function(d) { return d.size/8; })
+            .attr("r", function(d) { return d.size/9; })
             .attr("fill", function(d) { return color(d.size); })
             .call(d3.drag()
                 .on("start", dragstarted)
                 .on("drag", dragged)
                 .on("end", dragended));
 
-        node._groups[0][0].setAttribute("fill", "#000");
+        node._groups[0][0].setAttribute("fill", "#fecc5c");
 
         node.append("title")
             .text(function(d) { return d.label; });
