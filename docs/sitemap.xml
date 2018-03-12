@@ -5,27 +5,33 @@
   <url>
     <loc>https://izabellaaaq.github.io/LabSpotify/post/semelhancas/</loc>
     <lastmod>2018-03-12T18:42:47-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://izabellaaaq.github.io/LabSpotify/categories/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://izabellaaaq.github.io/LabSpotify/post/</loc>
     <lastmod>2018-03-12T18:42:47-03:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://izabellaaaq.github.io/LabSpotify/</loc>
     <lastmod>2018-03-12T18:42:47-03:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://izabellaaaq.github.io/LabSpotify/tags/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
