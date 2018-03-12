@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313"
+baseURL = "https://izabellaaaq.github.io/LabSpotify/"
 languageCode = "pt-BR"
 title = "Semelhanças no Spotify"
 theme = "hugo-nuo"

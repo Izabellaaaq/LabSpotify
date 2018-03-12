@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Semelhanças no Spotify</title>
-    <link>http://localhost:1313/post/</link>
+    <link>https://izabellaaaq.github.io/LabSpotify/post/</link>
     <description>Recent content in Posts on Semelhanças no Spotify</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-BR</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Mon, 12 Mar 2018 18:42:47 -0300</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://izabellaaaq.github.io/LabSpotify/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Semelhancas</title>
-      <link>http://localhost:1313/post/semelhancas/</link>
+      <link>https://izabellaaaq.github.io/LabSpotify/post/semelhancas/</link>
       <pubDate>Mon, 12 Mar 2018 18:42:47 -0300</pubDate>
       
-      <guid>http://localhost:1313/post/semelhancas/</guid>
+      <guid>https://izabellaaaq.github.io/LabSpotify/post/semelhancas/</guid>
       <description>Ola mundo!</description>
     </item>
     
